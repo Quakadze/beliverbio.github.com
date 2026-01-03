@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belive-ctrl</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="static/assets/video/background.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+        </video>
+    </div>
+    
+    <div class="content">
+        <div class="glass-card">
+            <img src="static/assets/img/avatar.jpg" alt="Аватар hrnmein-ctrl" class="avatar">
+            <h1 class="username">belive-ctrl</h1>
+            <div class="typing-text" id="typing-text"></div>
+            
+            <div class="social-icons">
+                <div class="icon-wrapper">
+                    <a href="https://t.me/belivedgod" class="icon" target="_blank">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <div class="icon-tooltip">Telegram</div>
+                </div>
+                
+                <div class="icon-wrapper">
+                    <div class="icon" id="info-btn">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                    <div class="icon-tooltip">More info</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="music-player">
+            <img src="static/assets/img/music-cover.jpg" alt="liza" class="music-cover">
+            <div class="music-info">
+                <div class="music-title">liza</div>
+                <div class="music-artist">maduroo.</div>
+            </div>
+            <div class="music-controls">
+                <button class="control-btn" id="play-btn">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button class="control-btn" id="mute-btn">
+                    <i class="fas fa-volume-up"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bio-panel left-bio" id="bio-panel">
+        <button class="close-bio" id="close-bio">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="bio-content">
+            <h2>About Me</h2>
+			<p><strong>Nick:</strong> belivedgod</p>
+            <p><strong>Age:</strong> ??</p>
+            <p><strong>Community:</strong> soon 2019.06.21-2024.06.22</p>
+            <p><strong>Live:</strong> in Russia</p>
+			<p><strong>Discord:</strong> insternal</p>
+        </div>
+    </div>
+    
+    <audio id="background-music" loop>
+        <source src="static/assets/audio/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
